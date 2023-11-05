@@ -1,4 +1,3 @@
-/*
  * Pham Duy Anh - CKD - 0908984010 - phamduyanh@gmail.com
  * Create: 08-09-2017
  * Update: 05-11-2023
@@ -35,4 +34,3 @@
       ledstatus.ledFlasher(X)                   --> led flashed X times
  # Attention:
      The cycle will not be accurate if the loop() time is too large
-*/
