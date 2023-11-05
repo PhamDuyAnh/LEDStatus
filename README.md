@@ -36,5 +36,5 @@ LED flasher
   ledstatus.ledFlasher()                    --> led flashed one time
   ledstatus.ledFlasher(X)                   --> led flashed X times
 ```
-### Attention:
-The cycle will not be accurate if the loop() time is too large
+> [!WARNING]
+> The cycle will not be accurate if the loop() time is too large
