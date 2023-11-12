@@ -96,11 +96,11 @@ void LEDStatus::run() {
  * @param  {[type]} bytes numOfFlashes  [description]
  */
 void LEDStatus::ledFlasher(byte numOfFlashes) {
-  for (byte i = 0; i <= numOfFlashes; i++) {
+  for (byte i = 0; i < numOfFlashes; i++) {
     digitalWrite(_ledpin, _pinState);
     delay(_timeLED);
     digitalWrite(_ledpin, !_pinState);
-    delay(_timePeriod);
+    if (numOfFlashes > 1) delay(_timePeriod);
   }
 }
 void LEDStatus::ledFlasher() {
